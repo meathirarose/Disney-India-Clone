@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Matterhorn, Helvetica, Arial, sans-serif; 
+}
+
+/* navigation bar */
+.navbar{
+    width: 100%;
+    height: 75px;
+    font-weight: bold;
+    font-size:85%;
+}
+
+.nav-item{
+    margin-right: 25px;
+}
+
+/* cards 4*/
+.section2{
+    margin-top: 10px;
+}
+
+.featAd{
+    padding: 35px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* card 2 */
+.section3{
+    margin-top: 10px;
+}
+
+.section3 .column {
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.section3 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* card of 3 */
+.holiDay{
+    margin-left: 20px;
+}
+.section4 .column {
+    float: left;
+    width: 33.33%;
+    padding-left: 35px;
+    padding-right: 10px;
+}
+
+.section4 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* section5 card 2 */
+.moreDisney{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.section5 .column {
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+.section5 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fontj{
+    margin-top: 15px;
+    font-size: small;
+}
+
+.fontd{
+    margin-top: 35px;
+    font-size: small;
+}
+
+.list{
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .section2 .column  {
+      width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section2  .column  {
+      width: 100%;
+      margin: 10px;
+    } 
+    .section3 .column {
+        width: 100%;
+        padding: 25px;
+    } 
+    .section4 .column {
+        width: 100%; 
+    } 
+    .section5  .column  {
+        width: 100%;
+        padding: 25px;
+      } 
+    .featAd{
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .navbar{
+        z-index: 1;
+        width: 250px;
+        height: 50px;
+    }
+    #navbarTogglerDemo03{
+        background-color: white;
+    }
+    .carousel{
+        margin-top: 20px;
+        
+    }
+    .navbar-brand{
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+
+    #toggle{
+        margin-top: 15px;
+    }  
+}
+
+
